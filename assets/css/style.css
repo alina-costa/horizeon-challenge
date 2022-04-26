@@ -64,17 +64,20 @@ p {
     margin-right: 25px;
 }
 
+/* changed from class to id because there is only 1 float-right */
 #float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* renamed class to assign one block of style code to multiple parts of the HTML */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* collapse into one block to be assigned to multiple HTML parts */
 .content-info {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,15 +87,18 @@ p {
     color: #ffffff;
 }
 
+/* collapse into one block to be assigned to multiple HTML parts */
 .content-info img {
     max-height: 200px;
 }
 
+/* collapse into one block to be assigned to multiple HTML parts */
 .content-info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* changed to id instead of class because there is only one */
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,16 +110,19 @@ p {
     background-color: #2589bd;
 }
 
+/* collapse into one block of css to be assigned to multiple HTML parts */
 .benefit-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* collapse into one block of css to be assigned to multiple HTML parts */
 .benefit-content h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* collapse into one block of css to be assigned to multiple HTML parts */
 .benefit-content img {
     display: block;
     margin: 10px auto;
@@ -127,6 +136,7 @@ p {
     text-align: center;
 }
 
-#footer h2 {
+/* changed from h2 to h4 for accessibility purposes */
+#footer h4 {
     font-size: 20px;
 }
